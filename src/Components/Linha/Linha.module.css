@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+    width: 100%;
+    border: 1px solid var(--branco);
+}
+
+.caixa{
+    width: 25%;
+}
+
+.valores{
+    background-color: var(--cinza);
+    padding: 4px 0;
+}
+
+.content>button{
+    background-color: var(--cinza);
+    padding: 5px;
+    border-radius: 3px;
+}

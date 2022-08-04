@@ -1,0 +1,24 @@
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--cinza);
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35vh 55vh 10vh;
+    grid-template-areas: "u u u"
+                         "m m m"
+                         "l l l" ;
+}
+
+.upperSection{
+    grid-area: u;
+}
+
+.middleSection{
+    grid-area: m;
+}
+
+.lowerSection{
+    grid-area: l;
+}
